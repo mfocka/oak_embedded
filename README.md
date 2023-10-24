@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Example application for creating an object detection pipeline using OAK-1 and a imx8plus board.
+Example application for creating an object detection pipeline using OAK-1 and an imx8plus board.
 
 ## Error
 
