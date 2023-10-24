@@ -1,0 +1,46 @@
+{
+"cameras": {
+        "camera": [
+            {
+                "camera_id": 0,
+                "lists": {},
+                "ranges": {},
+                "init_values": {}
+            }
+        ],
+        "oak_camera": [
+            {
+                "lists": {},
+                "ranges": {
+                    "focus": [
+                        0,
+                        255
+                    ],
+                    "exposure": [
+                        1,
+                        10000
+                    ],
+                    "iso": [
+                        100,
+                        1600
+                    ],
+                    "saturation": [
+                        0,
+                        255
+                    ],
+                    "sharpness": [
+                        0,
+                        4
+                    ]
+                },
+                "init_values": {
+                    "focus": 125,
+                    "exposure": 1680,
+                    "iso": 100,
+                    "saturation": 255,
+                    "sharpness": 5
+                }
+            }
+        ]
+    }
+}
