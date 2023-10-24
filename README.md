@@ -6,7 +6,9 @@ Example application for creating an object detection pipeline using OAK-1 and an
 
 ## Error
 
-When we call for the detection (in "detection.py", line 83: `in_nn = self.q_nn.tryGet()`), we get the following error (only on the board, not on a pc): `RuntimeError: Communication exception - possible device error/misconfiguration. Original message 'Couldn't read data from stream: 'input' (X_LINK_ERROR)`
+When we call for the detection (in "detection.py", line 83: `in_nn = self.q_nn.tryGet()`), we get the following error (only on the board, not on a pc): `RuntimeError: Communication exception - possible device error/misconfiguration. Original message 'Couldn't read data from stream: 'input' (X_LINK_ERROR)`.
+
+This error, as stated, does not happen on other devices. Tried running this on Windows and on Ubuntu, both worked fine.
 
 ## Installed packages
 
